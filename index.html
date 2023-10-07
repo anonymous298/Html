@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talha Form</title>
+    <link rel="icon" href="M.TALHA.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       <h1 class="form-title">REGESTRATION <span>FORM</span></h1>
+        <form action="https://formspree.io/f/mjvdakee" method="post">
+            <div class="main-user-info">
+                <div class="user-input-box">
+                    <label for="fullname">FullName</label>
+                    <input type="text"
+                           name="fullname" 
+                           id="fullname"
+                           placeholder="Enter Your FullName" required >
+                </div>
+                <div class="user-input-box">
+                    <label for="username">UserName</label>
+                    <input type="text"
+                           name="username" 
+                           id="username"
+                           placeholder="Enter Your UserName" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="email">Email</label>
+                    <input type="email"
+                           name="email"
+                           id="email"
+                           placeholder="Enter Your Email" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="phonenumber">PhoneNumber</label>
+                    <input type="text"
+                           name="phonenumber" 
+                           id="phonenumber"
+                           placeholder="Enter Your PhoneNumber" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="password">Password</label>
+                    <input type="password"
+                           name="password" 
+                           id="password"
+                           placeholder="Enter Your password" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="cpassword">Confirm Password</label>
+                    <input type="password"
+                           name="cpassword" 
+                           id="cpassword"
+                           placeholder="Confirm Your Password" required>
+                </div>
+            </div>
+            <div class="gender-details-box">
+                <span class="gender-title">Gender</span>
+                <div class="gender-category">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="dusrimakhlooq">
+                    <label for="dusrimakhlooq">Dusri Makhlooq</label>
+                </div>
+            </div>
+            <div class="form-submit-btn">
+                <input type="submit" name="submit" value="Jaldi Send Kar BSDK">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
+

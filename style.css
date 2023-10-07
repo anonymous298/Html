@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(hi.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.container{
+    max-width: 650px;
+    width: 100%;
+    background-color: rgba(126, 126, 126, 0.651);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+}
+.form-title{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 18px;
+    border-bottom: 1px solid white;
+    text-shadow: 1px 3px 5px rgba(54, 225, 255, 0.747);
+    cursor: pointer;
+}
+.main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 15px;
+}
+.user-input-box label{
+    width: 95%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-weight: 500;
+    margin: 5px 0;
+    text-shadow: 1px 3px 5px rgba(255, 255, 255, 0.747);
+}
+.user-input-box input{
+    width: 100%;
+    height: 35px;
+    border-radius: 7px;
+    outline: none;
+    padding: 0 10px;
+    border: 1px solid grey;
+}
+.gender-title{
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    text-shadow: 1px 3px 5px rgba(255, 255, 255, 0.747);
+    
+}
+.gender-category{
+    margin: 15px 0;
+    color: white;
+}
+.gender-category label{
+    padding: 0 20px 0 5px;
+    text-shadow: 1px 3px 5px rgba(255, 255, 255, 0.747);
+}
+.gender-category label,
+.gender-category input,
+.form-submit-btn input{
+    cursor: pointer;
+}
+.form-submit-btn{
+    margin-top: 40px;
+    box-shadow: 2px 2px 10px rgba(39, 230, 230, 0.712);
+}
+.form-submit-btn input{
+    background-color: rgba(43, 175, 180, 0.568);
+    display: block;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.form-submit-btn input:hover{
+    background-color:  rgba(20, 196, 202, 0.829);
+    box-shadow: 2px 2px 10px rgb(26, 240, 240);
+}
+.form-submit-btn input:active{
+    box-shadow: 2px 2px 10px rgb(118, 255, 255);
+    background-color:  rgba(65, 249, 255, 0.932);
+}
+span{
+    color: rgb(21, 247, 255);
+}
